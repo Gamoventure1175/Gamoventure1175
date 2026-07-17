@@ -1,9 +1,9 @@
 # Illustrations
 
-`practice-strip.gif` is an original 1280 × 260 animated summary of interests outside
-software: speedcubing, typing, and a playful nod to Portal as a favourite game. Its
-dark neutral surface is designed to sit cleanly in either GitHub theme, with blue and
-orange used as paired accents rather than a dominant wash.
+`practice-strip-espresso.gif` is an original 1280 × 260 animated summary of interests
+outside software: speedcubing, typing, and a playful nod to Portal as a favourite
+game. Espresso, crema, caramel, and muted sage define the composition. Blue and orange
+appear only on the paired Portal gateways.
 
 The illustration carries the exact confirmed figures—8.76-second personal best,
 10–15-second typical solves, and 90+ WPM—so the public README can remain concise.
@@ -20,8 +20,13 @@ One restrained six-second cycle communicates the three interests:
 - the blue gateway opens first, followed by the orange gateway and replay path.
 
 The sequence holds its completed state before a short reset so motion is not missed
-below the fold. `practice-strip-still.png` shows that completed state, and the README
-selects it for visitors who request reduced motion.
+below the fold. The README embeds the GIF directly so GitHub does not replace it with a
+static source through a media query. `practice-strip-still.png` remains available as a
+complete non-animated reference.
+
+GitHub can still pause animated images when a viewer disables autoplay under
+[Accessibility → Motion](https://docs.github.com/en/account-and-profile/how-tos/account-settings/managing-accessibility-settings).
+That preference applies across GitHub and cannot be overridden by README markup.
 
 `scripts/generate_practice_strip.py` owns the drawing and animation logic. Run it with
 Python 3 and Pillow to regenerate both published files. This repository uses GIF

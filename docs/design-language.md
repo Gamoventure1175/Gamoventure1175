@@ -41,6 +41,7 @@ their entries are curated.
 - Use a single, centered visual flow that remains legible on mobile.
 - Let one original hero establish identity; follow it immediately with a native-text
   statement so the page remains meaningful if images fail.
+- Avoid legacy image floats, clearing attributes, and layout tables for the hero.
 - Prefer short paragraphs and generous section breaks.
 - Use tables only for genuinely relational information, not for page layout.
 - Keep the README useful when images are unavailable.
@@ -57,14 +58,16 @@ Avoid slogans, inflated claims, and resume-style keyword lists.
 
 ## Color
 
-The default palette is neutral and compatible with GitHub's light and dark themes:
+The profile uses a restrained lo-fi espresso palette that remains compatible with
+GitHub's light and dark themes:
 
 - foreground: GitHub's surrounding text color
-- secondary linework: middle gray with sufficient contrast in both themes
+- dark surfaces: espresso and roasted-coffee neutrals
+- light marks: crema rather than pure white
+- secondary linework: warm gray-brown with sufficient contrast
 - background: transparent wherever possible
-- paired accent: muted blue for inputs and warm orange for outputs or feedback
-- balance: use the pair with comparable visual weight; neither color should become a
-  full-surface wash
+- accents: caramel and muted sage, used sparingly
+- Portal pair: subdued blue and orange only for the two gateways
 - brand marks: their documented brand colors, used sparingly and only as identifiers
 
 Color must never be the only way an asset communicates structure.
@@ -75,7 +78,7 @@ Color must never be the only way an asset communicates structure.
 - Keep SVGs small, accessible, and free of scripts, external fonts, and embedded data.
 - Include a `<title>` and `<desc>` for meaningful SVGs.
 - Use SVG only for static vector work on GitHub. When motion is essential, publish one
-  optimized repository-owned GIF with a complete still-image fallback.
+  optimized repository-owned GIF with a complete still-image companion.
 - Prefer transparent backgrounds. When a full-surface background is needed to preserve
   theme-aware contrast, document the exception and verify both light and dark variants.
 - Use product logos only as concise, truthful identifiers or navigation. Keep them
@@ -96,7 +99,8 @@ Color must never be the only way an asset communicates structure.
   movement, flashes, or competing animations.
 - Keep the cycle near six seconds and the published file comfortably below GitHub's
   image limits.
-- Honor `prefers-reduced-motion` with a still source that communicates the same facts.
+- Keep a complete still companion even when the README embeds the GIF directly to avoid
+  an unexpected static substitution.
 
 ## Explicit exclusions
 

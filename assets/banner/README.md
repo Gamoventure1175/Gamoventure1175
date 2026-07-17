@@ -1,12 +1,5 @@
 # Banner assets
 
-## `signal-line.svg`
-
-The public profile uses a small original signal path below the photo-led introduction.
-A muted blue input and warm-orange output meet at one neutral boundary, carrying the
-architecture motif without turning the hero into a dense diagram. The SVG is static,
-transparent, dependency-free, and legible in both GitHub themes.
-
 ## `system-map.svg`
 
 `system-map.svg` is an original, dependency-free profile banner built from geometric SVG primitives. Its 1280 × 320 canvas and restrained system-diagram motif are intended to remain legible at typical GitHub README widths.

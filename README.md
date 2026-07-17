@@ -1,23 +1,23 @@
-<img align="right" src="assets/photos/profile.jpg" width="160" alt="Portrait of Gaurav Abhiman Mahajan">
+<p align="center">
+  <img src="assets/photos/profile-avatar.jpg" width="144" alt="Portrait of Gaurav Abhiman Mahajan">
+</p>
 
-# Gaurav Abhiman Mahajan
+<h1 align="center">Gaurav Abhiman Mahajan</h1>
 
-**Software engineer**<br>
-Backend systems · architecture · data
+<p align="center">
+  <strong>Software engineer</strong><br>
+  <sub>Backend systems · architecture · data</sub>
+</p>
 
-Building software that remains understandable as it grows.
+<p align="center"><em>Software that remains understandable.</em></p>
 
-<p>
+<p align="center">
   <a href="https://www.linkedin.com/in/gaurav-abhiman-mahajan/">LinkedIn</a> ·
   <a href="https://leetcode.com/u/gauravmahajan1175/">LeetCode</a> ·
   <a href="https://monkeytype.com/profile/GAM1175">Monkeytype</a>
 </p>
 
-<br clear="right">
-
-<p align="center">
-  <img src="assets/banner/signal-line.svg" width="100%" alt="">
-</p>
+---
 
 <h3 align="center">Principles</h3>
 
@@ -32,21 +32,19 @@ Building software that remains understandable as it grows.
 <h3 align="center">Working set</h3>
 
 <p align="center">
-  <img src="assets/icons/python.svg" width="38" height="38" alt="Python" title="Python">&nbsp;&nbsp;&nbsp;
-  <img src="assets/icons/typescript.svg" width="38" height="38" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;&nbsp;
-  <img src="assets/icons/database.svg" width="38" height="38" alt="Database design" title="Database design">&nbsp;&nbsp;&nbsp;
-  <img src="assets/icons/docker.svg" width="38" height="38" alt="Docker" title="Docker">
+  <img src="assets/icons/python.png" height="36" alt="Python" title="Python">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/icons/typescript.svg" height="36" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/icons/postgresql.svg" height="36" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/icons/docker-white.svg">
+    <img src="assets/icons/docker-black.svg" height="36" alt="Docker" title="Docker">
+  </picture>
 </p>
-
-<p align="center"><sub>Python · TypeScript · database design · Docker</sub></p>
 
 <h3 align="center">For the fun of it</h3>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/illustrations/practice-strip-still.png">
-    <img src="assets/illustrations/practice-strip.gif" width="100%" alt="Personal interests in motion: a six-colour cube solves from a scramble, keyboard keys tap quickly beside 90 or more words per minute, and a blue gateway opens before an orange gateway for Portal.">
-  </picture>
+  <img src="assets/illustrations/practice-strip-espresso.gif" width="100%" alt="Personal interests in motion: a six-colour cube solves from a scramble, keyboard keys tap quickly beside 90 or more words per minute, and a muted blue gateway opens before an orange gateway for Portal.">
 </p>
 
 <p align="center">

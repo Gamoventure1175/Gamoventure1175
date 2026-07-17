@@ -33,11 +33,18 @@ Useful qualities: strong grids, deliberate whitespace, restrained type, and clea
 hierarchy. GitHub Markdown limits typographic control, so composition and editing
 should carry most of this influence.
 
+## Lo-fi espresso
+
+Useful qualities: warm dark neutrals, soft contrast, a little grain, and the calm of a
+late-night notebook beside a cup of coffee. The profile borrows the mood rather than
+adding literal coffee illustrations. Crema, caramel, and muted sage carry the ambient
+color; brand marks keep their official colors.
+
 ## Portal and Half-Life
 
 Portal is present first as a personal favourite, not as a technical credential. Its
 puzzles also fit the profile's wider interest in curiosity and discovery. The playful
-replay loop in `practice-strip.gif` uses original paired-gateway geometry without
+replay loop in `practice-strip-espresso.gif` uses original paired-gateway geometry without
 reproducing logos, interfaces, characters, or other game assets.
 
 ## GitHub profile ecosystem

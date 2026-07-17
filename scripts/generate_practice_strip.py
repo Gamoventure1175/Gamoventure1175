@@ -13,7 +13,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageSequence
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIRECTORY = ROOT / "assets" / "illustrations"
-GIF_PATH = OUTPUT_DIRECTORY / "practice-strip.gif"
+GIF_PATH = OUTPUT_DIRECTORY / "practice-strip-espresso.gif"
 STILL_PATH = OUTPUT_DIRECTORY / "practice-strip-still.png"
 
 WIDTH = 1280
@@ -21,18 +21,22 @@ HEIGHT = 260
 FRAME_COUNT = 75
 FRAME_DURATION_MS = 80
 
-BACKGROUND = "#0D1117"
-SURFACE = "#161B22"
-GRID = "#21262D"
-BORDER = "#484F58"
-FOREGROUND = "#F0F6FC"
-MUTED = "#8B949E"
-BLUE = "#72B8DF"
-BLUE_DARK = "#2F6F95"
-ORANGE = "#F0A95A"
-ORANGE_DARK = "#9B5A23"
-KEY_SURFACE = "#21262D"
-CUBE_OUTLINE = "#090B0D"
+BACKGROUND = "#181310"
+SURFACE = "#221A16"
+GRID = "#2B231E"
+BORDER = "#4A3A31"
+FOREGROUND = "#EADFD2"
+MUTED = "#A49484"
+CARAMEL = "#BB8464"
+CARAMEL_DARK = "#684536"
+CREMA = "#D7A58D"
+SAGE = "#7D877E"
+PORTAL_BLUE = "#6F9AA8"
+PORTAL_BLUE_DARK = "#355A64"
+PORTAL_ORANGE = "#CB8244"
+PORTAL_ORANGE_DARK = "#754427"
+KEY_SURFACE = "#2D241F"
+CUBE_OUTLINE = "#100D0B"
 
 CUBE_COLORS = {
     "U": "#F5F5F0",
@@ -299,14 +303,14 @@ def draw_cube(
             ),
             start=205,
             end=325,
-            fill=ORANGE,
+            fill=CARAMEL,
             width=2,
         )
         draw.text(
             (171 + horizontal_offset, 79 + vertical_offset),
             move_label,
             font=SMALL_BOLD_FONT,
-            fill=ORANGE,
+            fill=CARAMEL,
         )
 
 
@@ -344,11 +348,17 @@ def draw_grid(draw: ImageDraw.ImageDraw) -> None:
         draw.line((0, y, WIDTH, y), fill=GRID, width=1)
 
 
-def draw_panel_header(draw: ImageDraw.ImageDraw, x: int, label: str) -> None:
+def draw_panel_header(
+    draw: ImageDraw.ImageDraw, x: int, label: str, portal_pair: bool = False
+) -> None:
     draw.text((x + 24, 39), label, font=LABEL_FONT, fill=MUTED)
     draw.line((x + 24, 62, x + 370, 62), fill=BORDER, width=1)
-    draw.line((x + 24, 62, x + 51, 62), fill=BLUE, width=3)
-    draw.line((x + 51, 62, x + 78, 62), fill=ORANGE, width=3)
+    if portal_pair:
+        draw.line((x + 24, 62, x + 51, 62), fill=PORTAL_BLUE, width=3)
+        draw.line((x + 51, 62, x + 78, 62), fill=PORTAL_ORANGE, width=3)
+        return
+    draw.line((x + 24, 62, x + 51, 62), fill=SAGE, width=3)
+    draw.line((x + 51, 62, x + 78, 62), fill=CARAMEL, width=3)
 
 
 def draw_cube_panel(draw: ImageDraw.ImageDraw, time_seconds: float) -> None:
@@ -357,9 +367,9 @@ def draw_cube_panel(draw: ImageDraw.ImageDraw, time_seconds: float) -> None:
     draw_cube(draw, state, horizontal, vertical, move_label)
 
     draw.text((198, 94), "8.76s", font=METRIC_FONT, fill=FOREGROUND)
-    draw.text((342, 112), "PB", font=SMALL_BOLD_FONT, fill=ORANGE)
-    draw.line((198, 141, 369, 141), fill=BLUE, width=2)
-    draw.line((284, 141, 369, 141), fill=ORANGE, width=2)
+    draw.text((342, 112), "PB", font=SMALL_BOLD_FONT, fill=CARAMEL)
+    draw.line((198, 141, 369, 141), fill=SAGE, width=2)
+    draw.line((284, 141, 369, 141), fill=CARAMEL, width=2)
     draw.text((198, 155), "10–15s", font=METRIC_COMPACT_FONT, fill=FOREGROUND)
     draw.text((335, 180), "TYPICAL", font=SMALL_FONT, fill=MUTED)
 
@@ -390,8 +400,8 @@ def draw_keyboard(draw: ImageDraw.ImageDraw, time_seconds: float) -> None:
             x = start_x + index * (key_width + gap)
             is_pressed = pressed == letter
             offset = 2 if is_pressed else 0
-            fill = ORANGE_DARK if is_pressed else KEY_SURFACE
-            outline = ORANGE if is_pressed else BORDER
+            fill = CARAMEL_DARK if is_pressed else KEY_SURFACE
+            outline = CARAMEL if is_pressed else BORDER
             label_color = FOREGROUND if is_pressed else MUTED
             draw.rectangle(
                 (x, start_y + offset, x + key_width, start_y + key_height + offset),
@@ -412,19 +422,19 @@ def draw_keyboard(draw: ImageDraw.ImageDraw, time_seconds: float) -> None:
     space_offset = 2 if space_pressed else 0
     draw.rectangle(
         (567, 166 + space_offset, 708, 184 + space_offset),
-        fill=ORANGE_DARK if space_pressed else KEY_SURFACE,
-        outline=ORANGE if space_pressed else BORDER,
+        fill=CARAMEL_DARK if space_pressed else KEY_SURFACE,
+        outline=CARAMEL if space_pressed else BORDER,
         width=1,
     )
     draw.line(
         (593, 175 + space_offset, 682, 175 + space_offset),
-        fill=FOREGROUND if space_pressed else BLUE,
+        fill=CREMA if space_pressed else SAGE,
         width=2,
     )
 
     if pressed is not None:
         pulse = int((time_seconds * 10.5) % 1 * 119)
-        draw.line((674, 204, 674 + pulse, 204), fill=BLUE, width=2)
+        draw.line((674, 204, 674 + pulse, 204), fill=SAGE, width=2)
     draw.line((674, 204, 793, 204), fill=BORDER, width=1)
 
 
@@ -432,7 +442,7 @@ def draw_typing_panel(draw: ImageDraw.ImageDraw, time_seconds: float) -> None:
     draw_panel_header(draw, 443, "02 / TYPING")
     draw_keyboard(draw, time_seconds)
     draw.text((477, 192), "90+", font=LARGE_METRIC_FONT, fill=FOREGROUND)
-    draw.text((583, 210), "WPM", font=SMALL_BOLD_FONT, fill=ORANGE)
+    draw.text((583, 210), "WPM", font=SMALL_BOLD_FONT, fill=CARAMEL)
 
 
 def opening_progress(time_seconds: float, start: float, end: float) -> float:
@@ -524,7 +534,7 @@ def draw_dashed_path(draw: ImageDraw.ImageDraw, points: Iterable[Point]) -> None
 
 
 def draw_portal_panel(draw: ImageDraw.ImageDraw, time_seconds: float) -> None:
-    draw_panel_header(draw, 862, "03 / FAVOURITE GAME")
+    draw_panel_header(draw, 862, "03 / FAVOURITE GAME", portal_pair=True)
 
     for x in range(886, 1233, 30):
         draw.line((x, 79, x, 176), fill=GRID, width=1)
@@ -534,8 +544,12 @@ def draw_portal_panel(draw: ImageDraw.ImageDraw, time_seconds: float) -> None:
 
     blue_progress = opening_progress(time_seconds, 0.35, 1.0)
     orange_progress = opening_progress(time_seconds, 1.15, 1.8)
-    draw_portal(draw, (930, 136), BLUE, BLUE_DARK, blue_progress)
-    draw_portal(draw, (1188, 128), ORANGE, ORANGE_DARK, orange_progress)
+    draw_portal(
+        draw, (930, 136), PORTAL_BLUE, PORTAL_BLUE_DARK, blue_progress
+    )
+    draw_portal(
+        draw, (1188, 128), PORTAL_ORANGE, PORTAL_ORANGE_DARK, orange_progress
+    )
 
     if orange_progress > 0.78:
         route = bezier_points((941, 136), (1000, 76), (1121, 83), (1177, 128), 48)
@@ -549,14 +563,14 @@ def draw_portal_panel(draw: ImageDraw.ImageDraw, time_seconds: float) -> None:
             )
 
     if blue_progress > 0.55:
-        draw.text((944, 87), "01", font=SMALL_BOLD_FONT, fill=BLUE)
+        draw.text((944, 87), "01", font=SMALL_BOLD_FONT, fill=PORTAL_BLUE)
     if orange_progress > 0.55:
-        draw.text((1203, 155), "02", font=SMALL_BOLD_FONT, fill=ORANGE)
+        draw.text((1203, 155), "02", font=SMALL_BOLD_FONT, fill=PORTAL_ORANGE)
 
     draw.text((886, 192), "PORTAL", font=METRIC_FONT, fill=FOREGROUND)
     draw.text((1048, 210), "PLAY / REPLAY", font=SMALL_FONT, fill=MUTED)
-    draw.line((1184, 207, 1232, 207), fill=BLUE, width=2)
-    draw.line((1208, 207, 1232, 207), fill=ORANGE, width=2)
+    draw.line((1184, 207, 1232, 207), fill=PORTAL_BLUE, width=2)
+    draw.line((1208, 207, 1232, 207), fill=PORTAL_ORANGE, width=2)
 
 
 def render_frame(time_seconds: float) -> Image.Image:
@@ -565,7 +579,13 @@ def render_frame(time_seconds: float) -> Image.Image:
     draw_grid(draw)
 
     for left in (24, 443, 862):
-        draw.rectangle((left, 24, left + 394, 236), fill=SURFACE, outline=BORDER, width=1)
+        draw.rounded_rectangle(
+            (left, 24, left + 394, 236),
+            radius=8,
+            fill=SURFACE,
+            outline=BORDER,
+            width=1,
+        )
 
     draw_cube_panel(draw, time_seconds)
     draw_typing_panel(draw, time_seconds)

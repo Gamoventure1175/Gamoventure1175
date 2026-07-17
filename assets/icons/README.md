@@ -1,21 +1,19 @@
 # Technology icon provenance
 
-Two technology marks are vendored from Simple Icons 16.26.0, while the Docker mark
-comes from Docker's official media kit. They are used only as concise identifiers for
-technologies confirmed in the project brief and resume. The database-design symbol is
-original.
+The README uses four locally vendored official marks as concise identifiers for
+technologies confirmed in the project brief and resume. Their names remain available
+through image alternative text and titles without being repeated visually below the
+logo row.
 
-| File | Source | Brand color |
+| File | Official source | Published variant |
 | --- | --- | --- |
-| `python.svg` | [Python icon](https://github.com/simple-icons/simple-icons/blob/16.26.0/icons/python.svg) | `#3776AB` |
-| `typescript.svg` | [TypeScript icon](https://github.com/simple-icons/simple-icons/blob/16.26.0/icons/typescript.svg) | `#3178C6` |
-| `docker.svg` | [Official Docker logo kit](https://www.docker.com/company/newsroom/media-resources/) | Ocean Blue `#2560FF` |
+| `python.png` | [Python Software Foundation logo page](https://www.python.org/community/logos/) | Blue/yellow logo device |
+| `typescript.svg` | [TypeScript brand assets](https://www.typescriptlang.org/branding/) | Primary blue `ts-logo-128.svg` |
+| `postgresql.svg` | [PostgreSQL logo resources](https://wiki.postgresql.org/wiki/Logo) | Three-color elephant mark |
+| `docker-black.svg`, `docker-white.svg` | [Docker logo kit](https://www.docker.com/company/newsroom/media-resources/) | Theme-adaptive official marks |
 
-`database.svg` is an original generic database-design symbol. It deliberately avoids
-using the PostgreSQL elephant mark alongside other trademarks while still representing
-the confirmed database focus. Its warm-orange status point balances the blue brand
-marks without recoloring them.
-
-Simple Icons is distributed under [CC0-1.0](https://github.com/simple-icons/simple-icons/blob/16.26.0/LICENSE.md).
-The underlying names and marks remain the property of their respective owners. Their
-use here identifies experience or interest and does not imply endorsement.
+The assets are not recolored or integrated into another logo. Their use identifies
+experience with the named technologies and does not imply endorsement. Python and its
+logo are trademarks of the Python Software Foundation; PostgreSQL and its logo are
+trademarks of the PostgreSQL Community Association of Canada; Docker and the Docker
+logo are trademarks of Docker, Inc.; TypeScript is a Microsoft trademark.

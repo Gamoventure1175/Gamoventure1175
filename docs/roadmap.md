@@ -8,7 +8,7 @@ Last reviewed: 2026-07-17
 - [x] Define the design language and explicit exclusions.
 - [x] Record the initial inspiration principles.
 - [x] Create a concise visual README using confirmed information only.
-- [x] Add a simple photo-led identity treatment with a paired signal accent.
+- [x] Add a simple centered identity treatment using the supplied portrait.
 - [x] Add a restrained four-symbol working set with documented provenance.
 - [x] Add an original animated personal-interests illustration.
 
