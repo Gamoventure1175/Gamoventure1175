@@ -38,14 +38,15 @@ are curated.
 
 ## Layout
 
-- Use a single, centered visual flow that remains legible on mobile.
+- Use a simple visual flow that remains legible on mobile.
 - Let one original hero establish identity; follow it immediately with a native-text
   statement so the page remains meaningful if images fail.
-- Avoid legacy image floats, clearing attributes, and layout tables for the hero.
+- A borderless left-aligned portrait may anchor the introduction. Clear its alignment
+  explicitly before the first divider or full-width asset.
 - Prefer short paragraphs and generous section breaks.
 - Use tables only for genuinely relational information, not for page layout.
 - Keep the README useful when images are unavailable.
-- Do not add a technology row unless it provides necessary context for curated work.
+- Keep one four-logo core stack row; do not add names, badges, or more tools to it.
 
 ## Typography
 

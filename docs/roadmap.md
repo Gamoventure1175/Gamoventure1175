@@ -8,8 +8,8 @@ Last reviewed: 2026-07-17
 - [x] Define the design language and explicit exclusions.
 - [x] Record the initial inspiration principles.
 - [x] Create a concise visual README using confirmed information only.
-- [x] Add a simple centered identity treatment using the supplied portrait.
-- [x] Document official technology assets without turning the README into a stack list.
+- [x] Add a simple borderless circular treatment using the supplied portrait.
+- [x] Add a restrained four-logo core stack with documented provenance.
 - [x] Add an original animated personal-interests illustration.
 
 ## 2. Identity and current context

@@ -51,8 +51,8 @@ reproducing logos, interfaces, characters, or other game assets.
 
 The [`github-profile` topic](https://github.com/topics/github-profile) was reviewed for
 GitHub-native presentation patterns. The useful ideas are structural: one clear hero,
-small social navigation, and strong mobile hierarchy. Technology marks were considered
-but omitted from the public README to keep the introduction modest.
+small social navigation, restrained technology marks, and strong mobile hierarchy.
+The public README keeps each category to one compact logo row.
 
 The profile intentionally does not adopt the topic's common generated features. Stats,
 streaks, trophies, counters, badge collections, activity feeds, animated headers, and
