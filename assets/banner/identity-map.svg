@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="identity-map-title identity-map-description">
+  <title id="identity-map-title">Gaurav Abhiman Mahajan engineering identity map</title>
+  <desc id="identity-map-description">A restrained system diagram introducing Gaurav Abhiman Mahajan, known on GitHub as Gamoventure1175, as a software engineer focused on backend, systems, and data, with compact motifs for an 8.76-second speedcube personal best and typing above 90 words per minute.</desc>
+
+  <defs>
+    <style>
+      .paper { fill: #0d1117; }
+      .surface { fill: #161b22; }
+      .grid-line { fill: none; stroke: #30363d; stroke-width: 1; opacity: 0.72; }
+      .frame { fill: none; stroke: #484f58; stroke-width: 1; }
+      .panel { fill: #161b22; stroke: #8b949e; stroke-width: 1; }
+      .foreground { fill: #f0f6fc; }
+      .muted { fill: #8b949e; }
+      .signal-fill { fill: #58a6ff; }
+      .route { fill: none; stroke: #f0f6fc; stroke-width: 1.5; stroke-linecap: square; stroke-linejoin: miter; }
+      .route-muted { fill: none; stroke: #8b949e; stroke-width: 1; stroke-linecap: square; stroke-linejoin: miter; }
+      .signal-stroke { fill: none; stroke: #58a6ff; stroke-width: 2; stroke-linecap: square; stroke-linejoin: miter; }
+      .node { fill: #f0f6fc; }
+      .node-open { fill: #0d1117; stroke: #f0f6fc; stroke-width: 1.5; }
+      .node-signal { fill: #0d1117; stroke: #58a6ff; stroke-width: 2; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .handle { font-size: 28px; font-weight: 650; letter-spacing: -0.5px; }
+      .role { font-size: 16px; font-weight: 450; }
+      .focus { font-size: 13px; font-weight: 650; letter-spacing: 1.5px; }
+      .mark { font-size: 30px; font-weight: 700; }
+      .mark-index { font-size: 10px; font-weight: 700; letter-spacing: 0.8px; }
+      .module-label { font-size: 16px; font-weight: 700; letter-spacing: 1.2px; }
+      .index { font-size: 11px; font-weight: 700; letter-spacing: 0.8px; }
+      .metric { font-size: 16px; font-weight: 700; letter-spacing: -0.2px; }
+      .metric-label { font-size: 11px; font-weight: 650; letter-spacing: 1px; }
+      .annotation { font-size: 10px; font-weight: 650; letter-spacing: 1px; }
+
+    </style>
+
+    <pattern id="technical-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path class="grid-line" d="M32 0H0v32" />
+    </pattern>
+  </defs>
+
+  <rect class="paper" width="1280" height="360" fill="#0d1117" />
+  <rect width="1280" height="360" fill="url(#technical-grid)" />
+
+  <g aria-hidden="true">
+    <rect class="frame" x="24.5" y="24.5" width="1231" height="311" />
+    <path class="frame" d="M48 24v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8M48 336v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8M24 56h8m-8 96h8m-8 96h8m1224-192h-8m8 96h-8m8 96h-8" />
+
+    <g>
+      <rect class="surface" x="52" y="52" width="66" height="66" />
+      <path class="signal-stroke" d="M52 73V52h21m24 0h21v21m0 24v21H97m-24 0H52V97" />
+      <text class="foreground sans mark" x="72" y="94" fill="#f0f6fc">G</text>
+      <text class="signal-fill mono mark-index" x="94" y="108" fill="#58a6ff">1175</text>
+    </g>
+
+    <text class="foreground sans handle" x="142" y="80" fill="#f0f6fc">Gaurav Abhiman Mahajan</text>
+    <text class="muted sans role" x="142" y="112" fill="#8b949e">@Gamoventure1175 · software engineer</text>
+    <path class="signal-stroke" d="M142 137h24" />
+    <text class="foreground mono focus" x="178" y="142" fill="#f0f6fc">BACKEND / SYSTEMS / DATA</text>
+
+    <path class="frame" d="M550 44v272" />
+    <circle class="node-signal" cx="550" cy="142" r="4" />
+
+    <g>
+      <path class="route-muted" d="M52 226h468M228 246v50" />
+      <text class="muted mono annotation" x="52" y="217" fill="#8b949e">PERSONAL SIGNALS</text>
+
+      <g transform="translate(52 249)">
+        <rect class="route-muted" x="0.5" y="0.5" width="8" height="8" />
+        <rect class="route-muted" x="11.5" y="0.5" width="8" height="8" />
+        <rect class="route-muted" x="22.5" y="0.5" width="8" height="8" />
+        <rect class="route-muted" x="0.5" y="11.5" width="8" height="8" />
+        <rect class="signal-fill" x="11" y="11" width="9" height="9" />
+        <rect class="route-muted" x="22.5" y="11.5" width="8" height="8" />
+        <rect class="route-muted" x="0.5" y="22.5" width="8" height="8" />
+        <rect class="route-muted" x="11.5" y="22.5" width="8" height="8" />
+        <rect class="route-muted" x="22.5" y="22.5" width="8" height="8" />
+      </g>
+      <text class="foreground mono metric" x="100" y="268" fill="#f0f6fc">8.76s</text>
+      <text class="muted mono metric-label" x="100" y="288" fill="#8b949e">CUBE / PB</text>
+
+      <path class="route-muted" d="M255 282v-9m7 9v-18m7 18v-28m7 28v-22m7 22v-14m7 14v-7" />
+      <rect class="signal-fill" x="267" y="249" width="4" height="33" />
+      <text class="foreground mono metric" x="310" y="268" fill="#f0f6fc">90+ WPM</text>
+      <text class="muted mono metric-label" x="310" y="288" fill="#8b949e">TYPING</text>
+    </g>
+
+    <g>
+      <path class="route-muted" d="M600 86h40v94h60M600 180h100M600 274h40v-94" />
+      <circle class="node-open" cx="600" cy="86" r="5" />
+      <circle class="node-open" cx="600" cy="180" r="5" />
+      <circle class="node-open" cx="600" cy="274" r="5" />
+      <circle class="node" cx="640" cy="86" r="3" />
+      <circle class="node" cx="640" cy="180" r="3" />
+      <circle class="node" cx="640" cy="274" r="3" />
+      <text class="muted mono annotation" x="616" y="167" fill="#8b949e">INPUT</text>
+
+      <rect class="panel" x="700.5" y="118.5" width="194" height="123" />
+      <text class="muted mono index" x="720" y="144" fill="#8b949e">01</text>
+      <text class="foreground sans module-label" x="754" y="145" fill="#f0f6fc">BACKEND</text>
+      <path class="route-muted" d="M722 169h150v20H722v20h150" />
+      <circle class="node-signal" cx="736" cy="169" r="4" />
+      <circle class="node" cx="858" cy="189" r="3" />
+      <circle class="node-open" cx="736" cy="209" r="4" />
+      <path class="route" d="M694 180h6m195-26h44v-54h41m-85 107h44v53h41" />
+      <path class="signal-fill" d="M692 176l8 4-8 4zm280-80l8 4-8 4zm0 160l8 4-8 4z" />
+      <text class="muted mono annotation" x="907" y="144" fill="#8b949e">FLOW</text>
+      <text class="muted mono annotation" x="903" y="225" fill="#8b949e">STATE</text>
+
+      <rect class="panel" x="980.5" y="53.5" width="199" height="93" />
+      <text class="muted mono index" x="1000" y="79" fill="#8b949e">02</text>
+      <text class="foreground sans module-label" x="1034" y="80" fill="#f0f6fc">SYSTEMS</text>
+      <path class="route-muted" d="M1003 110h42l20-14h36l20 14h36" />
+      <circle class="node-open" cx="1003" cy="110" r="4" />
+      <circle class="node-signal" cx="1065" cy="96" r="4" />
+      <circle class="node" cx="1121" cy="110" r="3" />
+      <circle class="node-open" cx="1157" cy="110" r="4" />
+
+      <rect class="panel" x="980.5" y="213.5" width="199" height="93" />
+      <text class="muted mono index" x="1000" y="239" fill="#8b949e">03</text>
+      <text class="foreground sans module-label" x="1034" y="240" fill="#f0f6fc">DATA</text>
+      <path class="route-muted" d="M1004 267c0-7 18-12 40-12s40 5 40 12-18 12-40 12-40-5-40-12zm0 0v13c0 7 18 12 40 12s40-5 40-12v-13m20-12h53m-53 15h53m-53 15h53" />
+      <circle class="signal-fill" cx="1157" cy="285" r="3" />
+
+      <path class="route-muted" d="M1080 147v66" />
+      <circle class="node" cx="1080" cy="180" r="3" />
+      <path class="route" d="M1180 100h44m-44 160h44" />
+      <circle class="node-open" cx="1224" cy="100" r="5" />
+      <circle class="node-open" cx="1224" cy="260" r="5" />
+
+      <path class="route-muted" stroke-dasharray="5 5" d="M1224 260v56H640v-42" />
+      <text class="muted mono annotation" x="812" y="311" fill="#8b949e">FEEDBACK</text>
+      <circle class="node-signal" cx="896" cy="316" r="4" />
+    </g>
+  </g>
+</svg>

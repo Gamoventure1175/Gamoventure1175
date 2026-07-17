@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="system-map-title system-map-description">
+  <title id="system-map-title">Abstract system architecture map</title>
+  <desc id="system-map-description">A restrained monochrome diagram of connected modules, signal paths, and a feedback loop on a technical grid.</desc>
+
+  <defs>
+    <style>
+      .paper { fill: #f7f7f4; }
+      .grid { fill: none; stroke: #d7d9d4; stroke-width: 1; }
+      .frame { fill: none; stroke: #747875; stroke-width: 1; }
+      .wash { fill: #ecece8; }
+      .module { fill: #f7f7f4; stroke: #1b1d1d; stroke-width: 1.5; }
+      .route { fill: none; stroke: #1b1d1d; stroke-width: 1.5; stroke-linecap: square; stroke-linejoin: miter; }
+      .route-muted { fill: none; stroke: #747875; stroke-width: 1; stroke-linecap: square; stroke-linejoin: miter; }
+      .node { fill: #1b1d1d; }
+      .node-open { fill: #f7f7f4; stroke: #1b1d1d; stroke-width: 1.5; }
+      .hairline { fill: none; stroke: #d7d9d4; stroke-width: 1; }
+
+      @media (prefers-color-scheme: dark) {
+        .paper { fill: #111313; }
+        .grid { stroke: #303432; }
+        .frame { stroke: #929793; }
+        .wash { fill: #1a1d1c; }
+        .module { fill: #111313; stroke: #eceeeb; }
+        .route { stroke: #eceeeb; }
+        .route-muted { stroke: #929793; }
+        .node { fill: #eceeeb; }
+        .node-open { fill: #111313; stroke: #eceeeb; }
+        .hairline { stroke: #303432; }
+      }
+    </style>
+
+  </defs>
+
+  <rect class="paper" width="1280" height="320" fill="#f7f7f4" />
+  <path class="grid" fill="none" d="M32 0v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320m32-320v320M0 32h1280M0 64h1280M0 96h1280M0 128h1280M0 160h1280M0 192h1280M0 224h1280M0 256h1280M0 288h1280" />
+
+  <g aria-hidden="true">
+    <rect class="frame" x="32.5" y="32.5" width="1215" height="255" />
+
+    <path class="frame" d="M64 32v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8m96-8v8M64 288v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8m96 8v-8M32 64h8m-8 96h8m-8 96h8m1208-192h8m-8 96h8m-8 96h8" />
+
+    <path class="route-muted" d="M96 104h64m-64 56h96m-96 56h64M160 104v112m0-112h64m-64 112h64" />
+    <circle class="node-open" cx="96" cy="104" r="5" />
+    <circle class="node-open" cx="96" cy="160" r="5" />
+    <circle class="node-open" cx="96" cy="216" r="5" />
+    <circle class="node" cx="160" cy="104" r="3" />
+    <circle class="node" cx="160" cy="216" r="3" />
+    <circle class="node" cx="192" cy="160" r="3" />
+
+    <rect class="wash" x="224" y="80" width="176" height="64" />
+    <rect class="module" x="224.75" y="80.75" width="174.5" height="62.5" />
+    <path class="route-muted" d="M248 104h40m16 0h72m-128 16h80m16 0h32" />
+    <rect class="node" x="288" y="101" width="4" height="6" />
+    <rect class="node" x="328" y="117" width="4" height="6" />
+
+    <rect class="wash" x="224" y="176" width="176" height="64" />
+    <rect class="module" x="224.75" y="176.75" width="174.5" height="62.5" />
+    <path class="route-muted" d="M248 200h72m16 0h40m-128 16h32m16 0h80" />
+    <rect class="node" x="320" y="197" width="4" height="6" />
+    <rect class="node" x="280" y="213" width="4" height="6" />
+
+    <path class="route" d="M400 112h64m-64 96h64" />
+    <circle class="node" cx="432" cy="112" r="3" />
+    <circle class="node" cx="432" cy="208" r="3" />
+
+    <rect class="wash" x="464" y="64" width="336" height="192" />
+    <rect class="module" x="464.75" y="64.75" width="334.5" height="190.5" />
+    <rect class="module" x="512.75" y="96.75" width="238.5" height="126.5" />
+    <path class="hairline" d="M544 64v32m176-32v32M544 224v32m176-32v32M464 96h48m-48 128h48m240-128h48m-48 128h48" />
+    <path class="route" d="M464 112h48m0 0h64v32h48m-160 64h48m0 0h64v-32h48m0-16h64v-48h64m-128 48h64v48h64" />
+    <path class="route-muted" d="M576 112v96m112-96v96" />
+    <circle class="node-open" cx="512" cy="112" r="5" />
+    <circle class="node-open" cx="512" cy="208" r="5" />
+    <circle class="node" cx="576" cy="144" r="3" />
+    <circle class="node" cx="576" cy="176" r="3" />
+    <circle class="node" cx="624" cy="160" r="6" />
+    <circle class="node" cx="688" cy="112" r="3" />
+    <circle class="node" cx="688" cy="208" r="3" />
+    <circle class="node-open" cx="752" cy="112" r="5" />
+    <circle class="node-open" cx="752" cy="208" r="5" />
+
+    <path class="route" d="M800 112h96v-16h256m-352 64h352m-352 48h96v16h256" />
+    <path class="route-muted" d="M896 96v128m128-128v128" />
+    <circle class="node" cx="896" cy="96" r="3" />
+    <circle class="node" cx="896" cy="160" r="3" />
+    <circle class="node" cx="896" cy="224" r="3" />
+    <circle class="node" cx="1024" cy="96" r="3" />
+    <circle class="node" cx="1024" cy="160" r="3" />
+    <circle class="node" cx="1024" cy="224" r="3" />
+    <circle class="node-open" cx="1152" cy="96" r="5" />
+    <circle class="node-open" cx="1152" cy="160" r="5" />
+    <circle class="node-open" cx="1152" cy="224" r="5" />
+
+    <path class="route-muted" d="M896 224v40H160v-48" />
+    <circle class="node-open" cx="528" cy="264" r="4" />
+  </g>
+</svg>
