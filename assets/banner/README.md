@@ -1,15 +1,11 @@
 # Banner assets
 
-## `identity-map.svg`
+## `signal-line.svg`
 
-The public profile hero combines the confirmed name and `Gamoventure1175` handle with
-a backend-to-systems/data flow. Its `G / 1175` mark, component boundaries, feedback
-path, and compact personal telemetry turn the profile identity into a system diagram
-rather than a generic decorative header.
-
-The 1280 × 360 SVG is original, dependency-free, and accessible. Its fixed dark
-technical surface stays consistent in both GitHub themes and uses only SVG primitives,
-system fonts, and a restrained blue signal color.
+The public profile uses a small original signal path below the photo-led introduction.
+A muted blue input and warm-orange output meet at one neutral boundary, carrying the
+architecture motif without turning the hero into a dense diagram. The SVG is static,
+transparent, dependency-free, and legible in both GitHub themes.
 
 ## `system-map.svg`
 

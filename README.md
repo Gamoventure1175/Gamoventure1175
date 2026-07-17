@@ -1,21 +1,23 @@
-<p align="center">
-  <img src="assets/banner/identity-map.svg" width="100%" alt="Gaurav Abhiman Mahajan — software engineer focused on backend systems and data">
-</p>
+<img align="right" src="assets/photos/profile.jpg" width="160" alt="Portrait of Gaurav Abhiman Mahajan">
 
-<h1 align="center">Software that remains understandable.</h1>
+# Gaurav Abhiman Mahajan
 
-<p align="center">
-  <strong>Backend systems · architecture · data</strong><br>
-  <sub>Building for clarity as systems grow.</sub>
-</p>
+**Software engineer**<br>
+Backend systems · architecture · data
 
-<p align="center">
+Building software that remains understandable as it grows.
+
+<p>
   <a href="https://www.linkedin.com/in/gaurav-abhiman-mahajan/">LinkedIn</a> ·
   <a href="https://leetcode.com/u/gauravmahajan1175/">LeetCode</a> ·
   <a href="https://monkeytype.com/profile/GAM1175">Monkeytype</a>
 </p>
 
----
+<br clear="right">
+
+<p align="center">
+  <img src="assets/banner/signal-line.svg" width="100%" alt="">
+</p>
 
 <h3 align="center">Principles</h3>
 
@@ -41,7 +43,10 @@
 <h3 align="center">For the fun of it</h3>
 
 <p align="center">
-  <img src="assets/illustrations/practice-strip.svg" width="100%" alt="Animated personal interests: a six-colour cube solves from a scramble; keyboard keys tap quickly beside 90 or more words per minute; and a blue gateway opens before a warm-gold gateway for Portal.">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/illustrations/practice-strip-still.png">
+    <img src="assets/illustrations/practice-strip.gif" width="100%" alt="Personal interests in motion: a six-colour cube solves from a scramble, keyboard keys tap quickly beside 90 or more words per minute, and a blue gateway opens before an orange gateway for Portal.">
+  </picture>
 </p>
 
 <p align="center">

@@ -37,7 +37,7 @@ should carry most of this influence.
 
 Portal is present first as a personal favourite, not as a technical credential. Its
 puzzles also fit the profile's wider interest in curiosity and discovery. The playful
-replay loop in `practice-strip.svg` uses original paired-gateway geometry without
+replay loop in `practice-strip.gif` uses original paired-gateway geometry without
 reproducing logos, interfaces, characters, or other game assets.
 
 ## GitHub profile ecosystem

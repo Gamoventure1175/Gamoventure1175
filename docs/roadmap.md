@@ -8,7 +8,7 @@ Last reviewed: 2026-07-17
 - [x] Define the design language and explicit exclusions.
 - [x] Record the initial inspiration principles.
 - [x] Create a concise visual README using confirmed information only.
-- [x] Add an original identity banner with an architecture map.
+- [x] Add a simple photo-led identity treatment with a paired signal accent.
 - [x] Add a restrained four-symbol working set with documented provenance.
 - [x] Add an original animated personal-interests illustration.
 
@@ -38,15 +38,14 @@ Last reviewed: 2026-07-17
 
 - [ ] Design a monogram after initials and letterform preferences are provided.
 - [ ] Convert a supplied handwritten signature if it strengthens the composition.
-- [ ] Select and edit supplied portrait, workspace, or speedcube photography if useful.
+- [x] Publish the supplied portrait in the profile introduction.
 - [ ] Confirm that every published asset is original or has documented permission.
 
 ## 5. Review
 
 - [ ] Review all claims and links with the profile owner.
-- [ ] Check the README and SVG assets in GitHub light and dark themes.
-- [ ] Verify the CSS animation on the published GitHub profile; retain the complete
-      still state if GitHub or the visitor's browser suppresses SVG motion.
+- [ ] Check the README, portrait, and vector assets in GitHub light and dark themes.
+- [ ] Verify the generated GIF and reduced-motion still on the published GitHub profile.
 - [ ] Review mobile layout, accessibility text, spelling, and link behavior.
 - [ ] Remove any placeholder or internal planning language from public-facing sections.
 

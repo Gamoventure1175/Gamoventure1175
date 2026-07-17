@@ -13,7 +13,8 @@ original.
 
 `database.svg` is an original generic database-design symbol. It deliberately avoids
 using the PostgreSQL elephant mark alongside other trademarks while still representing
-the confirmed database focus.
+the confirmed database focus. Its warm-orange status point balances the blue brand
+marks without recoloring them.
 
 Simple Icons is distributed under [CC0-1.0](https://github.com/simple-icons/simple-icons/blob/16.26.0/LICENSE.md).
 The underlying names and marks remain the property of their respective owners. Their

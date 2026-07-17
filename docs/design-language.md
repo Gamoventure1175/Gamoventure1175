@@ -62,18 +62,20 @@ The default palette is neutral and compatible with GitHub's light and dark theme
 - foreground: GitHub's surrounding text color
 - secondary linework: middle gray with sufficient contrast in both themes
 - background: transparent wherever possible
-- accent: one muted accent for original assets
-- paired accent: muted blue and orange only when they distinguish the two endpoints
-  in the Portal-inspired replay loop
+- paired accent: muted blue for inputs and warm orange for outputs or feedback
+- balance: use the pair with comparable visual weight; neither color should become a
+  full-surface wash
 - brand marks: their documented brand colors, used sparingly and only as identifiers
 
 Color must never be the only way an asset communicates structure.
 
-## Imagery and SVGs
+## Imagery and published assets
 
 - Prefer diagrams, geometric studies, and original photography.
 - Keep SVGs small, accessible, and free of scripts, external fonts, and embedded data.
 - Include a `<title>` and `<desc>` for meaningful SVGs.
+- Use SVG only for static vector work on GitHub. When motion is essential, publish one
+  optimized repository-owned GIF with a complete still-image fallback.
 - Prefer transparent backgrounds. When a full-surface background is needed to preserve
   theme-aware contrast, document the exception and verify both light and dark variants.
 - Use product logos only as concise, truthful identifiers or navigation. Keep them
@@ -90,15 +92,17 @@ Color must never be the only way an asset communicates structure.
 ## Motion
 
 - Animate only when motion communicates an existing idea rather than decorating space.
-- Prefer one short sequence that settles into a complete static state; do not create
-  perpetual loops.
-- Keep the sequence under five seconds, avoid flashes, and use restrained movement.
-- Honor `prefers-reduced-motion` and ensure the still state communicates the same facts.
+- Keep one short, calm cycle with a meaningful completed-state pause; avoid continuous
+  movement, flashes, or competing animations.
+- Keep the cycle near six seconds and the published file comfortably below GitHub's
+  image limits.
+- Honor `prefers-reduced-motion` with a still source that communicates the same facts.
 
 ## Explicit exclusions
 
-The profile does not use view counters, contribution snakes, badge walls, animated
-GIFs, generated headers, streak cards, trophies, auto-generated activity widgets,
-decorative statistics cards, or full-page gaming-themed visual treatments. A single
-personal reference may translate a game mechanic into an original technical diagram;
-it must not reproduce logos, characters, screenshots, slogans, or interface artwork.
+The profile does not use view counters, contribution snakes, badge walls, downloaded
+or generic GIFs, generated headers, streak cards, trophies, auto-generated activity
+widgets, decorative statistics cards, or full-page gaming-themed visual treatments.
+One repository-owned animation may communicate confirmed personal interests. A game
+reference must not reproduce logos, characters, screenshots, slogans, or interface
+artwork.
