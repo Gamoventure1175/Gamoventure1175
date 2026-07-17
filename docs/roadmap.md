@@ -9,7 +9,7 @@ Last reviewed: 2026-07-17
 - [x] Record the initial inspiration principles.
 - [x] Create a concise visual README using confirmed information only.
 - [x] Add a simple centered identity treatment using the supplied portrait.
-- [x] Add a restrained four-symbol working set with documented provenance.
+- [x] Document official technology assets without turning the README into a stack list.
 - [x] Add an original animated personal-interests illustration.
 
 ## 2. Identity and current context

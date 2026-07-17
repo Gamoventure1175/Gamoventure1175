@@ -32,9 +32,9 @@ The root documents are the sources of truth:
 | `links.md` | Verified external destinations |
 
 `README.md` is a concise visual composition of those sources. The supporting documents
-hold the longer prose; the public page should favor a strong hero, compact identifiers,
-and short editorial lines. Project and writing sections should be added only after
-their entries are curated.
+hold the longer prose; the public page should favor a modest introduction and one
+personal visual. Project and writing sections should be added only after their entries
+are curated.
 
 ## Layout
 
@@ -45,7 +45,7 @@ their entries are curated.
 - Prefer short paragraphs and generous section breaks.
 - Use tables only for genuinely relational information, not for page layout.
 - Keep the README useful when images are unavailable.
-- Keep logo rows to four deliberate identifiers; never expand them into inventories.
+- Do not add a technology row unless it provides necessary context for curated work.
 
 ## Typography
 

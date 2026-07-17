@@ -1,15 +1,11 @@
 # Profile
 
-I am a software engineer who enjoys designing software that remains understandable
-as it grows. My professional experience includes backend services, production web
-applications, and data-driven systems. I naturally gravitate toward backend
-engineering, API design, system architecture, database design, distributed systems,
-and developer tooling.
+I am a junior software developer with experience working on backend services, web
+applications, and data-driven systems. I am especially interested in backend
+development, databases, and understanding how software works under the hood.
 
-I tend to learn technologies from the inside out. I am usually more interested in
-asking why something works than stopping at how to use it. Clean abstractions,
-thoughtful tradeoffs, documentation, and long-term maintainability matter more to me
-than novelty for its own sake.
+I am still learning. I try to write clear code, ask useful questions, and improve by
+building things rather than presenting every interest as expertise.
 
 ## Beyond software
 

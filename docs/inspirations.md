@@ -51,13 +51,12 @@ reproducing logos, interfaces, characters, or other game assets.
 
 The [`github-profile` topic](https://github.com/topics/github-profile) was reviewed for
 GitHub-native presentation patterns. The useful ideas are structural: one clear hero,
-small social navigation, restrained technology marks, theme-aware SVGs, and strong
-mobile hierarchy.
+small social navigation, and strong mobile hierarchy. Technology marks were considered
+but omitted from the public README to keep the introduction modest.
 
 The profile intentionally does not adopt the topic's common generated features. Stats,
 streaks, trophies, counters, badge collections, activity feeds, animated headers, and
-template-style “about me” blocks add noise without explaining an engineering point of
-view.
+template-style “about me” blocks add noise without helping the introduction.
 
 The [profile header generator](https://github.com/leviarista/github-profile-header-generator)
 reinforced the value of a clear title, subtitle, careful alignment, and light/dark

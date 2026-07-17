@@ -2,7 +2,7 @@
 
 ## Goal
 
-Design and build a GitHub profile that accurately represents me as an engineer. This is **not** intended to be another version of my resume. Instead, it should communicate how I think, what I value, how I approach software engineering, and the kind of work I enjoy building.
+Design and build a GitHub profile that accurately represents me as a junior developer. This is **not** intended to be another version of my resume. It should communicate curiosity and personality without presenting every technical interest as expertise.
 
 The result should feel timeless, understated, and highly curated. Every section should exist for a reason.
 
@@ -23,9 +23,9 @@ The overall feeling should be closer to an engineer's notebook than a social med
 
 # About Me
 
-I am a software engineer who enjoys designing software that remains understandable as it grows.
+I am a junior software developer who is learning through professional experience and personal projects.
 
-I naturally gravitate toward backend engineering, system architecture, APIs, databases, distributed systems, and developer tooling. I enjoy understanding technologies at a deeper level instead of simply learning how to use them.
+I am interested in backend development, APIs, databases, and understanding how technologies work internally. These are areas I am exploring, not claims of mastery.
 
 I value:
 
