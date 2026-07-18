@@ -1,6 +1,6 @@
 # Profile roadmap
 
-Last reviewed: 2026-07-17
+Last reviewed: 2026-07-18
 
 ## 1. Foundation
 
@@ -10,6 +10,7 @@ Last reviewed: 2026-07-17
 - [x] Create a concise visual README using confirmed information only.
 - [x] Add a simple borderless circular treatment using the supplied portrait.
 - [x] Add a restrained four-logo core stack with documented provenance.
+- [x] Add a verified two-role employment timeline.
 - [x] Add an original animated personal-interests illustration.
 
 ## 2. Identity and current context
@@ -21,8 +22,8 @@ Last reviewed: 2026-07-17
       embedded in the supplied resume.
 - [x] Move the supplied resume into `docs/reference/` for editorial reference.
 - [ ] Add and verify portfolio and public resume links.
-- [ ] Decide whether contact information, location, professional history, education,
-      or availability belong on the profile.
+- [x] Add professional history without publishing resume contact details.
+- [ ] Decide whether location, education, or availability belong on the profile.
 
 ## 3. Work and writing
 

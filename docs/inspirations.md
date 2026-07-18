@@ -40,6 +40,12 @@ late-night notebook beside a cup of coffee. The profile borrows the mood rather 
 adding literal coffee illustrations. Crema, caramel, and muted sage carry the ambient
 color; brand marks keep their official colors.
 
+## Editorial timelines
+
+Useful qualities: chronology at a glance, restrained detail, and clear separation
+between employer, client, and contribution. The employment timeline uses two compact
+cards rather than reproducing resume bullets or performance metrics.
+
 ## Portal and Half-Life
 
 Portal is present first as a personal favourite, not as a technical credential. Its

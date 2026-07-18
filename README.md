@@ -2,7 +2,8 @@
   <img align="left" src="assets/photos/profile-avatar-round.png" width="128" height="128" hspace="18" alt="Profile portrait">
   <br><br>
   <em>learning by building<br>
-  and understanding how things work</em>
+  and understanding how things work<br>
+  is enough.</em>
   <br><br>
   <a href="https://www.linkedin.com/in/gaurav-abhiman-mahajan/" title="LinkedIn"><img src="assets/icons/linkedin.png" height="25" alt="LinkedIn"></a>&nbsp;&nbsp;&nbsp;
   <a href="https://leetcode.com/u/gauravmahajan1175/" title="LeetCode"><img src="assets/icons/leetcode.png" width="25" height="25" alt="LeetCode"></a>&nbsp;&nbsp;&nbsp;
@@ -10,6 +11,14 @@
 </p>
 
 <br clear="both">
+
+---
+
+<h3 align="center">Work, so far</h3>
+
+<p align="center">
+  <img src="assets/illustrations/experience-timeline.svg" width="640" alt="Employment timeline: checkout, shipping, payment, and order-tracking work as a Contract Software Developer at Global Digitals FX from April to May 2026; Python APIs and PostgreSQL-backed retail analytics work as a Software Developer at Aurify Systems from July 2025 to March 2026.">
+</p>
 
 ---
 

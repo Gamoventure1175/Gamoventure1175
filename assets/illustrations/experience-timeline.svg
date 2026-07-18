@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="500" viewBox="0 0 520 500" role="img" aria-labelledby="experience-title experience-description">
+  <title id="experience-title">Employment timeline from July 2025 to May 2026</title>
+  <desc id="experience-description">Two verified roles: Software Developer at Aurify Systems from July 2025 to March 2026, followed by a remote contract with Global Digitals FX from April to May 2026.</desc>
+
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#2B231E" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="520" height="500" rx="14" fill="#181310"/>
+  <rect width="520" height="500" rx="14" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="519" height="499" rx="13.5" fill="none" stroke="#4A3A31"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">
+    <text x="26" y="34" fill="#A49484" font-size="12" font-weight="700" letter-spacing="1.5">WORK LOG / 2025-2026</text>
+    <path d="M26 51H494" stroke="#4A3A31"/>
+    <path d="M26 51H67" stroke="#BB8464" stroke-width="3"/>
+    <path d="M67 51H108" stroke="#7D877E" stroke-width="3"/>
+
+    <path d="M41 127V371" fill="none" stroke="#4A3A31" stroke-width="2"/>
+    <path d="M41 127V170" fill="none" stroke="#BB8464" stroke-width="2"/>
+    <path d="M41 328V371" fill="none" stroke="#7D877E" stroke-width="2"/>
+
+    <circle cx="41" cy="133" r="14" fill="#221A16" stroke="#BB8464" stroke-width="2"/>
+    <circle cx="41" cy="334" r="14" fill="#221A16" stroke="#7D877E" stroke-width="2"/>
+    <text x="41" y="138" fill="#EADFD2" font-size="12" font-weight="700" text-anchor="middle">02</text>
+    <text x="41" y="339" fill="#EADFD2" font-size="12" font-weight="700" text-anchor="middle">01</text>
+
+    <rect x="70" y="78" width="420" height="171" rx="10" fill="#221A16" stroke="#4A3A31"/>
+    <path d="M70 99V88a10 10 0 0 1 10-10h36" fill="none" stroke="#BB8464" stroke-width="2"/>
+    <text x="91" y="108" fill="#BB8464" font-size="13" font-weight="700" letter-spacing="1">APR - MAY 2026</text>
+    <text x="91" y="142" fill="#EADFD2" font-size="19" font-weight="700">Contract Software Developer</text>
+    <text x="91" y="169" fill="#A49484" font-size="14" font-weight="700">GLOBAL DIGITALS FX · REMOTE</text>
+    <text x="91" y="196" fill="#D7A58D" font-size="13">client · Sid Telfers Timber &amp; DIY, London</text>
+    <text x="91" y="222" fill="#EADFD2" font-size="14">Checkout, shipping, payments, and</text>
+    <text x="91" y="241" fill="#EADFD2" font-size="14">order-tracking flows for a London retailer.</text>
+
+    <rect x="70" y="279" width="420" height="171" rx="10" fill="#221A16" stroke="#4A3A31"/>
+    <path d="M70 300V289a10 10 0 0 1 10-10h36" fill="none" stroke="#7D877E" stroke-width="2"/>
+    <text x="91" y="309" fill="#7D877E" font-size="13" font-weight="700" letter-spacing="1">JUL 2025 - MAR 2026</text>
+    <text x="91" y="343" fill="#EADFD2" font-size="19" font-weight="700">Software Developer</text>
+    <text x="91" y="370" fill="#A49484" font-size="14" font-weight="700">AURIFY SYSTEMS PVT LTD</text>
+    <text x="91" y="402" fill="#EADFD2" font-size="14">Python APIs and PostgreSQL workflows for</text>
+    <text x="91" y="421" fill="#EADFD2" font-size="14">retail analytics, with Docker and CI/CD.</text>
+  </g>
+</svg>

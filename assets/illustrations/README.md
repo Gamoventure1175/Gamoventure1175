@@ -1,5 +1,15 @@
 # Illustrations
 
+`experience-timeline.svg` is an original, static employment timeline based only on the
+[supplied resume](../../docs/reference/Gaurav_Mahajan_Resume.pdf). It records two
+completed roles and month-level dates without implying current employment. The
+summaries omit performance metrics and long tool lists so the profile remains modest
+rather than becoming a second resume.
+
+The timeline uses the same espresso, crema, caramel, and muted-sage palette as the
+personal-interests strip. Its text remains live SVG text, with a title and description
+for assistive technology; it has no scripts, external fonts, or remote dependencies.
+
 `practice-strip-espresso.gif` is an original 1280 × 260 animated summary of interests
 outside software: speedcubing, typing, and a playful nod to Portal as a favourite
 game. Espresso, crema, caramel, and muted sage define the composition. Blue and orange
