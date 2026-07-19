@@ -33,25 +33,26 @@ Useful qualities: strong grids, deliberate whitespace, restrained type, and clea
 hierarchy. GitHub Markdown limits typographic control, so composition and editing
 should carry most of this influence.
 
-## Lo-fi espresso
+## Graphite interfaces
 
-Useful qualities: warm dark neutrals, soft contrast, a little grain, and the calm of a
-late-night notebook beside a cup of coffee. The profile borrows the mood rather than
-adding literal coffee illustrations. Crema, caramel, and muted sage carry the ambient
-color; brand marks keep their official colors.
+Useful qualities: near-black graphite, cool slate, precise alignment, controlled
+luminance, and quiet depth. Blue and cyan establish hierarchy without becoming neon
+decoration. Sparse guide lines and restrained gradients add technical structure while
+the generous spacing keeps the page editorial rather than dashboard-like.
 
 ## Editorial timelines
 
 Useful qualities: chronology at a glance, restrained detail, and clear separation
-between employer, client, and contribution. The employment timeline uses two compact
-cards rather than reproducing resume bullets or performance metrics.
+between employer, client, and contribution. `Experience` uses a single date rail,
+small nodes, and two aligned cards rather than reproducing resume bullets, numbered
+widgets, or performance metrics.
 
 ## Portal and Half-Life
 
 Portal is present first as a personal favourite, not as a technical credential. Its
-puzzles also fit the profile's wider interest in curiosity and discovery. The playful
-replay loop in `practice-strip-espresso.gif` uses original paired-gateway geometry without
-reproducing logos, interfaces, characters, or other game assets.
+puzzles also fit the profile's wider interest in curiosity and discovery. The restrained
+replay loop in `practice-strip-graphite.gif` uses original paired-gateway geometry
+without reproducing logos, interfaces, characters, or other game assets.
 
 ## GitHub profile ecosystem
 

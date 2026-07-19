@@ -44,33 +44,44 @@ only after their entries are curated.
 - A borderless left-aligned portrait may anchor the introduction. Clear its alignment
   explicitly before the first divider or full-width asset.
 - Prefer short paragraphs and generous section breaks.
+- Keep section headings, dividers, and full-width assets on one consistent center line.
+- Give generated assets equal outer padding, aligned panel edges, and a shared corner,
+  border, and spacing system.
 - Use tables only for genuinely relational information, not for page layout.
 - Keep the README useful when images are unavailable.
 - Keep employment history to verified roles, dates, and one grounded summary per role.
+- Present employment newest-first under `Experience`, using one vertical rail, compact
+  nodes, date eyebrows, and aligned cards rather than numbered dashboard widgets.
 - Keep one four-logo core stack row; do not add names, badges, or more tools to it.
 
 ## Typography
 
 GitHub's native interface typography is the default. SVG assets should use platform
-system fonts only when text is unavoidable. Do not encode headings or body copy as
-vector paths.
+system fonts only when text is unavoidable. Sans-serif type carries role titles and
+metrics; monospace is reserved for dates, labels, and small technical annotations.
+Do not encode headings or body copy as vector paths.
 
 The writing should use sentence case, restrained punctuation, and direct language.
 Avoid slogans, inflated claims, and resume-style keyword lists.
 
 ## Color
 
-The profile uses a restrained lo-fi espresso palette that remains compatible with
-GitHub's light and dark themes:
+The generated visual system is dark-first and deliberately cool. It uses restrained
+depth rather than decorative color:
 
-- foreground: GitHub's surrounding text color
-- dark surfaces: espresso and roasted-coffee neutrals
-- light marks: crema rather than pure white
-- secondary linework: warm gray-brown with sufficient contrast
-- background: transparent wherever possible
-- accents: caramel and muted sage, used sparingly
-- Portal pair: subdued blue and orange only for the two gateways
-- brand marks: their documented brand colors, used sparingly and only as identifiers
+- canvas: near-black graphite (`#090D13`) with a slight slate shift (`#0D141D`)
+- surfaces: graphite and raised slate (`#101720`, `#151E29`)
+- primary type: cool off-white (`#E7EDF4`)
+- secondary type: slate gray (`#8E9BAA`)
+- borders and guides: low-contrast blue slate (`#2A3747`, `#17212D`)
+- accents: muted blue and cyan (`#62B0D5`, `#69C5C3`), used for hierarchy and motion
+- Portal pair: blue plus one restrained orange gateway; orange is not a theme accent
+- semantic color: the cube retains its six real face colors
+- brand marks: their documented colors, used only as identifiers
+
+Gradients may establish quiet depth across a large surface. Glow is limited to a
+small active node or portal edge; panels do not receive neon halos. Warm brown, coffee,
+and earthy theme treatments are outside this direction.
 
 Color must never be the only way an asset communicates structure.
 
@@ -99,6 +110,11 @@ Color must never be the only way an asset communicates structure.
 - Animate only when motion communicates an existing idea rather than decorating space.
 - Keep one short, calm cycle with a meaningful completed-state pause; avoid continuous
   movement, flashes, or competing animations.
+- Use eased state changes: cube transitions cross-fade between validated states,
+  keycaps travel down and back smoothly, and gateways scale in without bouncing.
+- Keep the first frame complete and intentional because viewer motion preferences may
+  pause the GIF. Custom CSS, JavaScript, and hover transitions are not available in a
+  GitHub profile README.
 - Keep the cycle near six seconds and the published file comfortably below GitHub's
   image limits.
 - Keep a complete still companion even when the README embeds the GIF directly to avoid

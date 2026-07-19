@@ -161,7 +161,13 @@ Design inspiration should come from:
 * Swiss typography
 * clean editorial layouts
 
-Avoid excessive colors, unnecessary decoration, and visual clutter.
+The published visual system should be dark-first: near-black graphite, charcoal and
+slate surfaces, cool off-white type, and restrained blue or cyan accents. Subtle
+gradients, glass-like depth, and glow may be used only when they clarify hierarchy or
+motion.
+
+Avoid warm brown, coffee, or earthy theme treatments. Also avoid excessive colors,
+unnecessary decoration, and visual clutter.
 
 Whitespace and typography should do most of the work.
 

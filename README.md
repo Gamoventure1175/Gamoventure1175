@@ -14,10 +14,10 @@
 
 ---
 
-<h3 align="center">Work, so far</h3>
+<h3 align="center">Experience</h3>
 
 <p align="center">
-  <img src="assets/illustrations/experience-timeline.svg" width="640" alt="Employment timeline: checkout, shipping, payment, and order-tracking work as a Contract Software Developer at Global Digitals FX from April to May 2026; Python APIs and PostgreSQL-backed retail analytics work as a Software Developer at Aurify Systems from July 2025 to March 2026.">
+  <img src="assets/illustrations/experience-timeline.svg" width="680" alt="Employment timeline: checkout, shipping, payment, and order-tracking work as a Contract Software Developer at Global Digitals FX from April to May 2026; Python APIs and PostgreSQL-backed retail analytics work as a Software Developer at Aurify Systems from July 2025 to March 2026.">
 </p>
 
 ---
@@ -36,10 +36,10 @@
 
 ---
 
-<h3 align="center">For the fun of it</h3>
+<h3 align="center">Beyond the editor</h3>
 
 <p align="center">
-  <img src="assets/illustrations/practice-strip-espresso.gif" width="100%" alt="Personal interests in motion: a six-colour cube solves from a scramble, keyboard keys tap quickly beside 90 or more words per minute, and a muted blue gateway opens before an orange gateway for Portal.">
+  <img src="assets/illustrations/practice-strip-graphite.gif" width="100%" alt="Personal interests in motion: a six-colour cube solves from a scramble, keyboard keys tap quickly beside 90 or more words per minute, and a blue gateway opens before an orange gateway for Portal.">
 </p>
 
 <p align="center">

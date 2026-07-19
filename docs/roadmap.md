@@ -1,6 +1,6 @@
 # Profile roadmap
 
-Last reviewed: 2026-07-18
+Last reviewed: 2026-07-19
 
 ## 1. Foundation
 
@@ -12,6 +12,8 @@ Last reviewed: 2026-07-18
 - [x] Add a restrained four-logo core stack with documented provenance.
 - [x] Add a verified two-role employment timeline.
 - [x] Add an original animated personal-interests illustration.
+- [x] Establish a dark-first graphite, slate, muted-blue, and cyan visual system.
+- [x] Refine the employment timeline and personal-interest motion into that system.
 
 ## 2. Identity and current context
 
